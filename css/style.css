@@ -7,8 +7,7 @@
 /* debug */
 
 body {
-    width: 1160px;
-    background-color: blue;
+    
 }
 
 
@@ -20,8 +19,22 @@ body {
     clear: both;
 }
 
+img {
+    width: 100%;
+}
+
+.container {
+    width: 80%;
+    background-color: blue;
+    margin: auto;
+}
+
 .immagini {
-    
+    float: left;
+    padding: 10px;
+    width: calc(100% / 3 - 10px);
+
+
 }
 
 
