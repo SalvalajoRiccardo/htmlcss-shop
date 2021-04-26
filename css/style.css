@@ -6,10 +6,10 @@
 
 /* debug */
 
-.container {
+/* .container {
     background-color: blue; 
 }
-    
+     */
 
 
 
@@ -85,6 +85,18 @@ img {
     background-color: green;
     position: absolute;
     left: 50px;
+    bottom: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.sostenibile2 {
+    color: white;
+    background-color: green;
+    position: absolute;
+    left: 0px;
     bottom: 10px;
     font-size: 14px;
     line-height: 20px;
