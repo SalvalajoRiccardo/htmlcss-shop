@@ -4,3 +4,25 @@
     box-sizing: border-box;
 }
 
+/* debug */
+
+body {
+    width: 1160px;
+    background-color: blue;
+}
+
+
+/* debug */
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.immagini {
+    
+}
+
+
+
