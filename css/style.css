@@ -30,13 +30,15 @@ img {
     margin: auto;
 }
 /* modifiche immagini */
-.immagini {
+.box {
     float: left;
     margin: 10px;
     width: calc(100% / 3 - 20px);
+
+}
+
+.immagini {
     position: relative;
-
-
 }
 
 /* regola hover */
@@ -65,6 +67,7 @@ img {
 
 }
 
+
 .metàprezzo {
     color: white;
     background-color: red;
@@ -77,10 +80,32 @@ img {
     padding: 5px;
 }
 
+.sostenibile1 {
+    color: white;
+    background-color: green;
+    position: absolute;
+    left: 50px;
+    bottom: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: bold;
+    padding: 5px;
+}
 
 
-.immagini span {
+
+/* scritte varie */
+.box span {
     font-family: sans-serif;
+}
+
+h3 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+}
+
+.prezzo {
+    color: red;
+    font-size: 20px;
 }
 
 
