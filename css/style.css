@@ -6,9 +6,11 @@
 
 /* debug */
 
-body {
-    
+.container {
+    background-color: blue; 
 }
+    
+
 
 
 /* debug */
@@ -25,17 +27,31 @@ img {
 
 .container {
     width: 80%;
-    background-color: blue;
     margin: auto;
 }
-
+/* modifiche immagini */
 .immagini {
     float: left;
     padding: 10px;
-    width: calc(100% / 3 - 10px);
+    width: calc(100% / 3 - 1px);
+    
 
 
 }
+
+/* regola hover */
+.imgsotto {
+    display: none;
+}
+
+.immagini:hover .imgsopra {
+    display: none;
+}
+
+.immagini:hover .imgsotto {
+    display: block;
+}
+/* regola hover */
 
 
 
