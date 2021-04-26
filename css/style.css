@@ -65,5 +65,23 @@ img {
 
 }
 
+.metàprezzo {
+    color: white;
+    background-color: red;
+    position: absolute;
+    left: 0px;
+    bottom: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+
+
+.immagini span {
+    font-family: sans-serif;
+}
+
 
 
